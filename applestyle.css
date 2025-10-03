@@ -1,0 +1,1066 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aligncenter {
+  display: flex;
+  align-items: center;
+}
+.box_header {
+  width: 100%;
+}
+.header_part {
+  top: 0;
+  width: 100%;
+  /* max-width: 1920px; */
+  align-items: center;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  position: fixed;
+  column-gap: 24px;
+  background-color: rgba(245, 245, 247, 0.8);
+}
+/* .header_logo {
+  padding-left: 530px;
+} */
+.header_words {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(245, 245, 247, 0.8);
+  column-gap: 24px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.header_lastlogos {
+  /* padding-right: 520px; */
+  display: flex;
+  column-gap: 24px;
+}
+.ipadicon {
+  display: none;
+}
+.secondheader {
+  height: 52px;
+  padding-block: 12px;
+  font-size: 14px;
+  margin-top: 44px;
+  color: rgba(29, 29, 31, 1);
+  font-weight: 400;
+  padding: 16px 31px;
+  text-align: center;
+}
+.container_1 {
+  width: 100%;
+  /* max-width: 1920px; */
+  height: 629px;
+  text-align: center;
+  margin-bottom: 12px;
+  flex-direction: column;
+  padding-block: 55px;
+  background-position: center;
+  color: rgba(245, 245, 247, 1);
+  gap: 20px;
+
+  background-image: url(./Background.png);
+  background-size: cover;
+}
+.header_iphone16pro {
+  font-weight: 600;
+  font-style: bold;
+  font-size: 52px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+}
+.subheader {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  column-gap: 16px;
+  justify-content: center;
+}
+.left_button {
+  padding: 12px 20px;
+  border-radius: 999px;
+  border: solid #0071e3 1px;
+  color: #fff;
+  background-color: #0071e3;
+}
+.right_button {
+  padding: 12px 20px;
+  border-radius: 999px;
+  border: solid #0071e3 1px;
+  color: rgba(41, 151, 255, 1);
+}
+.container_2 {
+  width: 100%;
+  /* max-width: 1920px; */
+  height: 629px;
+  text-align: center;
+  margin-bottom: 12px;
+  flex-direction: column;
+  padding-block: 55px;
+  background-position: center;
+  color: rgba(245, 245, 247, 1);
+  gap: 20px;
+  background-image: url(./Figure.png);
+  background-size: cover;
+}
+.header_iphone16 {
+  font-weight: 600;
+  font-style: bold;
+  font-size: 52px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+}
+.subheader {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.left_white_button {
+  padding: 12px 20px;
+  border-radius: 999px;
+  border: white 1px;
+  color: black;
+  background-color: white;
+}
+.right_white_button {
+  padding: 12px 20px;
+  border-radius: 999px;
+  border: solid white 1px;
+  color: #fff;
+}
+.container_3 {
+  width: 100%;
+  /* max-width: 1920px; */
+  height: 629px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-direction: column;
+  background-position: center;
+  color: black;
+  gap: 20px;
+  background-image: url(./applefigure.png);
+  display: flex;
+  justify-content: flex-end;
+  padding-block: 55px;
+}
+.gift_header {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Bold;
+  font-size: 52px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  text-align: center;
+  vertical-align: middle;
+}
+.subheader_make {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.one_button {
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(0, 113, 227, 1);
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 20px;
+}
+.container4 {
+  gap: 12px;
+  display: grid;
+  margin-bottom: 12px;
+  grid-auto-rows: 580px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.box_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 58px;
+  background-image: url(./figure1\ .png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box1_subheader {
+  padding-top: 9px;
+  font-family: Inter, serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.box1b {
+  padding-top: 20px;
+}
+.footerwords {
+  padding-top: 324px;
+  font-family: Inter;
+  font-weight: 500;
+  /* font-style: Medium; */
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+
+  background: linear-gradient(
+    to right,
+    rgba(0, 144, 247, 1),
+    rgba(186, 98, 252, 1),
+    rgba(242, 65, 107, 1),
+    rgba(245, 86, 0, 1)
+  );
+  background-clip: text;
+  color: transparent;
+}
+.box_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./figure2.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box2_header {
+  padding-top: 401px;
+  font-family: Inter, serif;
+  font-weight: 600;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+.subheader2 {
+  padding: 2px;
+  font-family: Inter, serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.box2b {
+  padding: 10px;
+}
+.box_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./figure3.png);
+  padding: 58px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box3_header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.applesmall_logo {
+  width: 26.35293960571289;
+  height: 32;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+.WATCH {
+  width: 121;
+  height: 39;
+  opacity: 1;
+  font-family: Inter, serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.box3_subheader {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px;
+}
+.box3_undersubheader {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px;
+}
+.box3b {
+  padding: 16px;
+}
+.box_4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./figure4.png);
+  padding-top: 48px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box4_header {
+  font-family: Inter, serif;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 36px;
+  leading-trim: NONE;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+.box4_subheader {
+  font-family: Inter, serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 2px;
+}
+.box4b {
+  padding: 10px;
+}
+
+.box_5 {
+  display: flex;
+  flex-direction: column;
+  padding: 58px;
+  align-items: center;
+  background-image: url(./figure5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box5_header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.applesmall_logo {
+  width: 26.35293960571289;
+  height: 32;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+.Trade {
+  width: 121;
+  height: 39;
+  opacity: 1;
+  font-family: Inter, serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.one_button_inbox {
+  margin-top: 16px;
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(0, 113, 227, 1);
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 20px;
+}
+.box_6 {
+  display: flex;
+  flex-direction: column;
+  padding: 58px;
+  align-items: center;
+  background-image: url(./figure6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box6_header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Card {
+  width: 121;
+  height: 39;
+  opacity: 1;
+  font-family: Inter, serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.last {
+  margin-top: 16px;
+}
+.container_5 {
+  width: 100vw;
+  display: flex;
+  column-gap: 15px;
+  overflow-x: scroll;
+  align-items: center;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel_photo {
+  height: 668px;
+  width: 100%;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+}
+
+.info {
+  left: 47px;
+  bottom: 38px;
+  position: absolute;
+  display: flex;
+}
+
+.info_button {
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 11px 21px;
+  margin-right: 14px;
+  border-radius: 999px;
+  background-color: #f5f5f7;
+  color: black;
+}
+.figure1 {
+  background-image: url(./morning-show.jpg);
+  background-size: cover;
+}
+.figure2 {
+  background-image: url(./link2.png);
+  background-size: cover;
+}
+.figure3 {
+  background-image: url(./link4.jpg);
+  background-size: cover;
+}
+.dots {
+  display: flex;
+  margin-top: 14px;
+  justify-content: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  margin-inline: 7px;
+  border-radius: 50%;
+  background-color: #0000006b;
+  transition: opacity ease 250ms;
+}
+
+.dot:hover {
+  opacity: 1;
+}
+.lastpart-container {
+  width: 100vw;
+  overflow: hidden;
+  padding-bottom: 56px;
+}
+.lastpart {
+  display: flex;
+  width: fit-content;
+  padding-top: 12px;
+  animation-duration: 20s;
+  animation-name: slide-in;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  gap: 16px;
+}
+@keyframes slide-in {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animation_1 {
+  width: 417px;
+  height: 236px;
+  background-color: darkblue;
+  display: flex;
+  padding: 20px;
+}
+
+.z1 {
+  width: 196px;
+  height: 196px;
+  opacity: 1;
+  top: 20px;
+  left: 15px;
+  border-radius: 8px;
+}
+.discription1 {
+  display: flex;
+  align-items: center;
+}
+.discription2 {
+  display: flex;
+  align-items: center;
+}
+.animation_3 {
+  width: 417px;
+  height: 236px;
+  background-color: beige;
+  display: flex;
+  padding: 20px;
+}
+.animation_2 {
+  width: 417px;
+  height: 236px;
+  /* background-image: url(./s3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  display: flex;
+}
+.zurag3 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./s3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+}
+.animation_4 {
+  width: 417px;
+  height: 236px;
+  display: flex;
+}
+.zurag4 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./s4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+}
+.animation_5 {
+  width: 417px;
+  height: 236px;
+  display: flex;
+}
+.zurag5 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./s5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+}
+.animation_6 {
+  width: 417px;
+  height: 236px;
+  display: flex;
+}
+.zurag6 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./s6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+}
+.animation_7 {
+  width: 417px;
+  height: 236px;
+  display: flex;
+}
+.zurag7 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./s7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+}
+.animation_8 {
+  width: 417px;
+  height: 236px;
+  background-color: brown;
+  display: flex;
+  padding: 20px;
+}
+
+.animation_9 {
+  width: 417px;
+  height: 236px;
+  display: flex;
+}
+.zurag9 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./s9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+}
+
+.animation_10 {
+  width: 417px;
+  height: 236px;
+  background-color: gray;
+  display: flex;
+  padding: 20px;
+}
+.ugnuud {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.22px;
+  vertical-align: middle;
+  color: white;
+  padding-left: 15px;
+  padding-top: 180px;
+}
+.playnow {
+  /* opacity: 0; */
+  border: none;
+  font-size: 14px;
+  margin-top: 50px;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background-color: white;
+}
+
+.hidden_item {
+  /* inset: 0; */
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  margin-left: 150px;
+}
+.lastpart:hover {
+  animation-play-state: paused;
+}
+
+.last-button:has(.hidden_item):hover .hidden_item {
+  opacity: 1;
+}
+
+.lastpart:hover .last-button {
+  filter: grayscale(1);
+  animation-play-state: paused;
+}
+
+.lastpart .last-button:hover {
+  filter: grayscale(0);
+  opacity: 0.5;
+  transition: all 0.3s ease-in;
+}
+.ipadcontainer1 {
+  width: 100%;
+  height: 629px;
+  text-align: center;
+  margin-bottom: 12px;
+  padding-block: 55px;
+  background-position: center;
+  color: rgba(245, 245, 247, 1);
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 58px;
+  background-image: url(./ipadddd.png);
+  display: none;
+}
+.ipad_buttons {
+  display: flex;
+  column-gap: 16px;
+  justify-content: center;
+  padding-top: 30px;
+}
+.ipad_container {
+  gap: 12px;
+  display: grid;
+  margin-bottom: 12px;
+  grid-auto-rows: 490px;
+  grid-template-columns: repeat(2, 1fr);
+  display: none;
+}
+.ipad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./ipad1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  justify-content: flex-end;
+  padding-bottom: 42px;
+}
+.ipad2_box_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./ipadbox2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.ipad2_box_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./ipadbox3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.ipad2_box_4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./ipadbox4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 42px;
+}
+.ipad2_box_5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./ipadbox5.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+  padding-bottom: 42px;
+}
+.ipad2_box_6 {
+  display: flex;
+  flex-direction: column;
+  padding: 58px;
+  align-items: center;
+  background-image: url(./ipadbox6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ipadlast {
+  display: none;
+  display: flex;
+  width: fit-content;
+  padding-top: 12px;
+  animation-duration: 5s;
+  animation-name: slide-in;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  gap: 16px;
+  padding-bottom: 68px;
+}
+.ugnud {
+  padding: 15px;
+}
+.lastpart-container2 {
+  width: 100vw;
+  overflow: hidden;
+  display: none;
+}
+.container_1_iPhone1 {
+  width: 100%;
+  /* max-width: 1920px; */
+  height: 500px;
+  text-align: center;
+  margin-bottom: 12px;
+  flex-direction: column;
+  padding-block: 55px;
+  background-position: center;
+  color: rgba(245, 245, 247, 1);
+  gap: 15px;
+
+  background-image: url(./Figure@2x.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  display: none;
+  padding-top: 330px;
+}
+.container_2_iphone2 {
+  width: 100%;
+  /* max-width: 1920px; */
+  height: 500px;
+  text-align: center;
+  margin-bottom: 12px;
+  flex-direction: column;
+  padding-block: 40px;
+  background-position: center;
+  color: rgba(245, 245, 247, 1);
+  gap: 15px;
+  background-image: url(./iphone2.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+.container5_iphone {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+.bk {
+  width: 274px;
+  height: 495px;
+  padding: 30px;
+  color: white;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+.kk {
+  display: none;
+}
+.i1 {
+  background-image: url(./i1.png);
+}
+.i2 {
+  background-image: url(./i2.png);
+}
+.i3 {
+  background-image: url(./i3.png);
+}
+.i4 {
+  background-image: url(./i4.png);
+}
+.i5 {
+  background-image: url(./i5.png);
+}
+.i6 {
+  background-image: url(./i6.png);
+}
+.i7 {
+  background-image: url(./i7.png);
+}
+.i8 {
+  background-image: url(./i8.png);
+}
+@keyframes slide-in {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 768px) {
+  .header_part {
+    height: 48px;
+    justify-content: space-between;
+  }
+
+  .header_words {
+    display: none;
+  }
+
+  .header_lastlogos {
+    column-gap: 0px;
+  }
+
+  .header__icon {
+    width: 48px;
+  }
+
+  .ipadicon {
+    display: block;
+  }
+
+  .secondheader {
+    margin-top: 48px;
+    padding-block: 12px;
+  }
+
+  .container_1 {
+    height: 650px;
+    padding: 50px;
+  }
+  .container_3 {
+    display: none;
+  }
+  .ipadcontainer1 {
+    display: block;
+  }
+  .ipad_container {
+    display: block;
+    gap: 12px;
+    display: grid;
+    margin-bottom: 12px;
+    grid-auto-rows: 490px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container4 {
+    display: none;
+  }
+
+  .container_5 {
+    width: 100%;
+    height: 368px;
+    gap: 16px;
+  }
+  .carousel_photo {
+    height: 368px;
+    width: 80%;
+    color: white;
+    flex-shrink: 0;
+    font-size: 14px;
+    position: relative;
+    scroll-snap-align: center;
+  }
+  .ipadlast {
+    display: block;
+  }
+  .lastpart-container {
+    display: none;
+  }
+  .lastpart-container2 {
+    display: block;
+    padding-bottom: 68px;
+  }
+}
+@media (max-width: 390px) {
+  .container_1_iPhone1 {
+    display: block;
+  }
+  .container_2_iphone2 {
+    display: block;
+  }
+  .ipad_container {
+    display: block;
+    gap: 12px;
+    display: grid;
+    margin-bottom: 12px;
+    grid-auto-rows: 490px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .header_part {
+    height: 48px;
+    justify-content: space-between;
+  }
+
+  .header_words {
+    display: none;
+  }
+
+  .header_lastlogos {
+    column-gap: 0px;
+  }
+
+  .header__icon {
+    width: 48px;
+  }
+
+  .ipadicon {
+    display: block;
+  }
+
+  .secondheader {
+    margin-top: 48px;
+    padding-block: 12px;
+  }
+  .container_1 {
+    display: none;
+  }
+  .container_2 {
+    display: none;
+  }
+  .kk {
+    display: block;
+  }
+  .container_5 {
+    display: none;
+  }
+}
